@@ -1,0 +1,113 @@
+.html, body{
+    margin:0;
+    background: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg,red,blue);
+}
+
+.break {
+    padding: 32px 0;
+    border-bottom: 1px dashed gray;
+    height: 1px;
+    width: 100%;
+}
+
+.card{
+    width: 350px;
+    height: 60vh;
+    background: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+.card__content{
+    background: orange;
+    height: 80%;
+    border-radius: 8px 8px 0 0;
+    padding: 16px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(35deg, red, orange);
+}
+
+.card__actions{
+    padding: 16px 0;
+}
+
+.card__content__header{
+    position: relative;
+}
+
+.card__content__header .card__logo{
+    width: 50px;
+}
+
+.card__price{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.card__title{
+    color: white;
+}
+
+.card__description{
+    color: white;
+    font-size: 0.9rem;
+    line-height: 120%;
+}
+
+.btn {
+    border: 0;
+    padding: 8px 16px;
+    cursor: pointer;
+    background: blue;
+    color: white;
+    border-radius: 16px;
+    display: block;
+    margin: 0 auto 12px auto;
+    position: relative;
+    z-index: 99;
+}
+
+.card__captions{
+text-align: center;
+display: block;
+color: grey;
+font-size: 0.8rem;
+}
+
+.backdrop{
+    font-size: 14rem;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+    opacity: 0.5;
+    position: absolute;
+    bottom: -30px;
+    margin: 0;
+    padding: 0;
+    left: -10px;
+}
+
+.thumbnail{
+    position: relative;
+    width: 20%;
+    bottom: 0;
+    right: -50px;
+    left: 50px;
+    top: 50px;
+
+}
+
+.button {
+    position: relative;
+    z-index: 99;
+}
